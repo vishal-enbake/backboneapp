@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BackboneApp</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "jquery_ui" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery1.9.1" %>
+  <%= javascript_include_tag "jquery_ui" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

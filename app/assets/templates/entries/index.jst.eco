@@ -1,0 +1,9 @@
+<h1>Welcome</h1>
+<input type = "submit" value="click" id="clickme">
+<div id ="display"></div>
+
+<div id="dialog" title="Basic dialog" style ="display:none">
+    <label>Enter the City</label>
+    <input type= "text" id="autcom" />
+    <input type="submit" value= "Select" id="selectme" />
+</div>
